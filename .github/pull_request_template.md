@@ -1,18 +1,14 @@
 # Pull Request Template
 
 ## Description
+[Please include a summary of the changes]
 
+## Type of Change
 Please include a summary of the changes and the issue addressed:
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] Documentation update
-
-### Summary of Changes
-- **Feature/Issue**: [Briefly describe the feature or issue the PR addresses]
-- **Page**: [Indicate which page the changes are for (e.g., Home, About, Contact)]
-- **Backend Changes**: [Brief summary of backend changes]
-- **Frontend Changes**: [Brief summary of frontend changes]
 
 ## Checklist
 - [ ] My code follows the style guidelines of this project
@@ -26,6 +22,6 @@ Please include a summary of the changes and the issue addressed:
 
 
 ## Additional Notes
-- [Any additional information that the reviewer should know]
+[Any additional information that the reviewer should know]
 
 ---
