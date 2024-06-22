@@ -1,7 +1,9 @@
-require("dotenv").config();
 const express = require("express");
-const app = express();
 const cors = require("cors");
+const stationsRoutes = require("./routes/stationsRoutes");
+require("./db");
+
+const app = express();
 
 const allowedOrigins = [
   // Add any frontend urls that will need to access the apis
@@ -26,8 +28,6 @@ app.use(express.json());
 // Handle preflight requests:
 app.options("*", cors(corsOptions));
 
-// const xxRouter = require("./routes/xxRoutes.js");
-
-// app.use(xxRouter);
+app.use(stationsRoutes);
 
 module.exports = app;
