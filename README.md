@@ -4,7 +4,7 @@ This backend for the Z Energy prototype website is built with Node.js and Expres
 
 ## Built With
 
-This project was bootstrapped with the following technologies:
+This backend was created with the following technologies:
 
 - [Node](https://nodejs.org/) - A JavaScript cross platform runtime environment.
 - [Express](https://expressjs.com/) - A web application framework for Node.js.
