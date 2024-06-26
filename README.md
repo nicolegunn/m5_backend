@@ -12,6 +12,9 @@ This project was bootstrapped with the following technologies:
 - [Mongoose](https://mongoosejs.com/) - An Object Data Modeling (ODM) library for MongoDB and Node.js to retrieve documents from the database.
 - [CORS](https://www.npmjs.com/package/cors) - A Node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
 
+## Prerequisites
+-MongoDB local instance seeded with Z station data using the command line tool which can be found at this repository: https://github.com/nicolegunn/seed.git
+
 ## Installation
 
 git clone https://github.com/your_username/m5_backend.git
